@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    display:flex;
+    width:100vw;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav ul{
+    display:flex;
+    list-style: none;
+    margin: 30px;
+
+}
+.nav ul li {
+    margin:3px;
+    list-style: none;
+
+}
+.nav ul li a {
+    text-decoration: none;
+}
+.nav button {
+    height: 30px;
+    margin:4px;
+}
+.nav input{
+    height:30px;
+    margin:4px;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero img{
+    margin:0;
+    width:100%;
+    height:80%;
+    position:absolute;
+}
+.title{
+    display:flex;
+    width: 20rem;
+    margin-top:15rem;
+    position: relative;
+    height:5rem;
+    font-size: xxx-large;
+    padding-left:45%;
+    color: antiquewhite;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.fall-dining{
+    width:100dvw;
+    height:50%;
+    margin-bottom:20px;
+}
+.fall-dining img{
+    width:90%;
+    padding: 5%;
+}
+.fall-dining p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: antiquewhite;
+}
+.first4{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    
+    align-items: center;
+    justify-content: center;
+}
+.first4 p{
+    padding:2rem;
+}
+.first12{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(4, 150px);
+    align-items: center;
+    justify-content: center;
+
+}
+.first12 p{
+    padding:15px;
+}
+.second4{
+    display: flex;
+    padding:5px;
+    
+    
+    
+}
+.second4 p{
+    width:200px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.dinner{
+    display:grid;
+    grid-template-columns: repeat(2, 400px);
+    
+}
+.second12{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(4, 150px);
+    align-items: center;
+    justify-content: center;
+
+}
+.second12 p{
+    padding:15px;
+}
+.third4{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    
+    align-items: center;
+    justify-content: center;
+}
+.first4 p{
+    padding:2rem;
+}
+footer{
+    height: 95vh;
+    color: aliceblue;
+    background-color: #000000;
+    padding-left: 3rem;
+
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.container2{
+    display:flex;
+    padding:15px;
+}
+.c1 ul li{
+ padding:1rem;
+ list-style: none;
+ font-size: large;
+ text-decoration: none ;
+
+}
+.c2 ul li{
+    padding:1rem;
+list-style: none;
+font-size: large;
+text-decoration: none ;
+   }
+   .c3 ul li{
+    padding:1rem;
+list-style: none;
+font-size: large;
+text-decoration: none ;
+   }
+   .c4 ul li{
+    padding:1rem;
+list-style: none;
+font-size: large;
+text-decoration: none ;
+   }
+.extra {
+    padding:2rem;
+
+}
+.c5 ul li{
+    padding:2px;
+    list-style: none;
+}
+footer button{
+    color:white;
+    height:30px;
+    width:350px;
+    padding:2px;
+    background-color: #000000;
+    border: 2px solid white;
+}
+.footer-title{
+    font-size: x-large;
+    padding-top:3px;
+}
